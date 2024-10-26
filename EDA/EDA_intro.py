@@ -98,7 +98,7 @@ class EDA:
         With the plot given below, we can easily draw a trend line. 
         These features provide a good scattering of points.
         '''
-        fig, ax = plt.subplots(figsize=(10, 6))
+        _, ax = plt.subplots(figsize=(10, 6))
         ax.scatter(df['HP'], df['Price'])
         ax.set_xlabel('HP')
         ax.set_ylabel('Price')
